@@ -8,7 +8,7 @@ Proposition de PJS6 : Discord MMO
 
 Participants
 ----------------
-- Autheur : Pascal LUTTGENS,_<<pascal.luttgens@hotmail.fr>>_
+- Auteur : Pascal LUTTGENS,_<<pascal.luttgens@hotmail.fr>>_
 - Tuteur : Mourad OUZIRI
 
 
