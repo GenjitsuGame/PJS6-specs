@@ -1,8 +1,6 @@
 
 # Proposition de PJS6 : Discord MMO
 
-----------
-
 Participants
 ----------------
 - Auteur : Pascal LUTTGENS,_<<pascal.luttgens@hotmail.fr>>_

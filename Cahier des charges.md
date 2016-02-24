@@ -1,7 +1,5 @@
 # Cahier des charges
 
-----------
-
 Introduction
 -------------
 
@@ -41,10 +39,47 @@ Il est possible d'heberger des applications gratuitement avec des contraintes qu
 Enfin, il est possible de synchroniser heroku et un dépôt github, permettant de redéployer l'application à chaque fois que du code est poussé sur le dépôt.
 
 
-Spécifications fonctionnelles
------------------------------
+Spécifications
+--------------
 
-###
+Les spécifications entre paranthèses sont uniquement envisagé à ce stade.
+Les spécifications barrées ont déjà été réalisées avant le début officielle de ce projet.
+
+### Le jeu
+
+L'utilisateur pourra :
+
+#### Interaction avec le client
+
+- effectuer des actions via des commandes tapées dans le chat de discord.
+- annuler à tout moment une action en cours.
+- s'enregistrer sur les serveurs de jeu.
+
+#### Gestion des personnages
+- créer/supprimer un ou plusieurs personnages.
+- choisir le nom du personnage.
+- __(renommer son personnage après l'avoir crée.)__
+- choisir la race de son personnage.
+- choisir la classe de son personnage.
+- selectionner un de ses personnages pour jouer.
+
+#### Combat
+- se battre contre l'intelligence artificielle.
+- se battre contre d'autres joueurs.
+- __(se battre en équipe avec l'intelligence artificielle__
+- se battre en équipe avec d'autres joueurs.
+- choisir l'action qu'il désire effectuer via un menu contextuel au début de son tour.
+- gagner des objets à équiper ou permettant de fabriquer de l'équipement.
+
+
+#### Social
+- ajouter/supprimer des amis de sa liste d'amis.
+- créer/rejoindre/quitter une guilde.
+
+#### Commerce
+- acheter/échanger/vendre des objets du jeu.
+
+
 
 
 
