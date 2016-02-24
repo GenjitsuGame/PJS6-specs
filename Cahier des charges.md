@@ -69,8 +69,7 @@ L'utilisateur pourra :
 - __(se battre en équipe avec l'intelligence artificielle__
 - se battre en équipe avec d'autres joueurs.
 - choisir l'action qu'il désire effectuer via un menu contextuel au début de son tour.
-- gagner des objets à équiper ou permettant de fabriquer de l'équipement.
-
+- gagner des objets à équiper ou permettant de fabriquer/améliorer de l'équipement.
 
 #### Social
 - ajouter/supprimer des amis de sa liste d'amis.
@@ -78,7 +77,16 @@ L'utilisateur pourra :
 
 #### Commerce
 - acheter/échanger/vendre des objets du jeu.
+- utiliser des salons discord dédié au commerce du jeu.
 
+#### Métiers
+
+- apprendre un __(ou 2)__ métiers permettant d'aider sa progression dans le jeu.
+- fabriquer des objets qui pourront ensuite être utilisés ou revendus.
+
+### Le client
+
+Le client du jeu est un utilisateur automatisé de discord qui interprete et transmet les commandes des utilisateurs aux serveurs de jeu.
 
 
 

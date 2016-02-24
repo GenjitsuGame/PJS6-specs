@@ -32,8 +32,9 @@ La partie cliente sera [open source](https://github.com/GenjitsuGame/bot-mmo-cli
 
 - Contribuer à [Discord.io](https://github.com/izy521/discord.io), la bibliothèque que j'utilise pour utiliser les webservices de discord, j'ai déjà ouvert une [pull request](https://github.com/izy521/discord.io/pull/36) pour fixer un bug que j'ai rencontré mais je compte essayer d'y ajouter de nouvelles features si l'occasion se présente et ainsi contribuer pour la première fois à un projet open source.
 
+- Utiliser des thniques permettant d'avoir une base de donnée dite évolutive (ou "scalable").
 
-###Les difficultés potentielles
+###Les difficult potentielles
 
 - Arriver à construire et maintenir une architecture qui permette de contribuer facilement au projet (Patterns de développement, documentation, tests...)
 
