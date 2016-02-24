@@ -58,11 +58,11 @@ La partie cliente sera [open source](https://github.com/GenjitsuGame/bot-mmo-cli
 
 Les applications développées dans les cadre de ce projet seront écrite avec [nodejs](https://nodejs.org/en/) qui est une technologie très à la mode pour développer des serveurs exposant des webservices, car il est naturellement très rapide et permet de traiter un grand nombre de requête simultanément à condition de respecter certaines règles. A côté de cela, je compte me servir du site web que je vais développer pour apprendre [un nouveau framework css différent de bootstrap](http://foundation.zurb.com/) et [une nouvelle bibliothèque javascript](https://facebook.github.io/react/) qui viendra completer les compétences que j'ai acquises côté front-end notamment grâce au framework [angularJS](https://angularjs.org/).
 
- J'envisage pendant les grandes vacances et pendant les années à venir (probablement en école d'ingénieur en alternance) de travailler dans le web et d'être en mesure d'utiliser ou apprendre facilement les technologies actuellement recherchées en entreprise. Ce projet est donc une opportunité parfaite pour y arriver.
+ J'envisage pendant les grandes vacances et pendant les années à venir (probablement en école d'ingénieur en alternance) de travailler dans le web et d'être en mesure d'utiliser ou apprendre facilement les technologies actuellement recherchées en entreprise. Ce projet est donc une opportunité parfaite pour y arriver. De plus, si il est réussi, il pourra me servir comme support afin d'attester mes compétences lors d'entretiens ou autre.
 
 
-Cahiers des charges
-------------------------
+Cahier des charges
+------------------
 
 [lien vers le cahier des charges]
 
