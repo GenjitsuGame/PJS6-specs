@@ -57,7 +57,7 @@ L'utilisateur pourra :
 - Gestion des personnages
     - créer/supprimer un ou plusieurs personnages.
     - choisir le nom du personnage.
-    - __(renommer son personnage après l'avoir crée.)__
+    - _(renommer son personnage après l'avoir crée.)_
     - choisir la race de son personnage.
     - choisir la classe de son personnage.
     - selectionner un de ses personnages pour jouer.
@@ -65,7 +65,7 @@ L'utilisateur pourra :
 - Combat
     - se battre contre l'intelligence artificielle.
     - se battre contre d'autres joueurs.
-    - __(se battre en équipe avec l'intelligence artificielle__
+    - _(se battre en équipe avec l'intelligence artificielle_
     - se battre en équipe avec d'autres joueurs.
     - choisir l'action qu'il désire effectuer via un menu contextuel au début de son tour.
     - gagner des objets à équiper ou permettant de fabriquer/améliorer de l'équipement.
@@ -79,15 +79,47 @@ L'utilisateur pourra :
     - utiliser des salons discord dédié au commerce du jeu.
 
 - Métiers
-    - apprendre un __(ou 2)__ métiers permettant d'aider sa progression dans le jeu.
+    - apprendre un _(ou 2)_ métiers permettant d'aider sa progression dans le jeu.
     - fabriquer des objets qui pourront ensuite être utilisés ou revendus.
 
 ### Le client
 
 Le client du jeu est un utilisateur automatisé de discord qui interprete et transmet les commandes des utilisateurs aux serveurs de jeu.
 
+Il devra :
 
+- être connecté à Discord afin de recevoir les messages des utilisateurs (voir : [Discord.io](https://github.com/izy521/discord.io)
+- être paramétrable via un fichier de configuration.
+- gérer les erreurs gracieusement.
+- pouvoir afficher la liste des commandes et ce qu'elles font.
+- gérer la limite imposée par Discord de _X_ messages par _X_ secondes.
+- êffectuer des requêtes sur le serveur de jeu.
+- permettre au joueur d'effectuer l'ensemble des fonctionnalités décrites dans les spécification du [jeu](#le jeu).
 
+L'utilisateur du client pourra :
+
+- _(obtenir une clé d'API et un secret nécessaire pour effectuer des requêtes sur le serveur)_
+ 
+### Le serveur de jeu
+
+Le serveur de jeu contiendra la logique du jeu et exposera deux APIs :
+
+- une API fonctionnelle afin de pouvoir effectuer des opérations sur le jeu.
+- une API de donnée afin de pouvoir récupérer divers informations sur le jeu.
+
+Ces deux APIs seront représentées par des scopes et leur accès nécessitera une clé d'api qui sera associé à un des deux scopes voir les deux en même temps.
+
+Le serveur devra donc :
+
+- pouvoir distribuer des clés d'API associés à un ou plusieurs scopes.
+- être en mesure d'identifier les clients effectuant des appels d'API
+- retourner des données au format JSON.
+- implémenter la logique du jeu décrite dans les spécifications [mentionnées plus haut](#le jeu).
+
+### Le "Master Bot"
+
+Le master bot est une application utilisant, tout comme la partie cliente, la bibliothèque [Discord.io](https://github.com/izy521/discord.io) dans le but d'aider à la gestion du serveur Discord du jeu et de sa communauté.
+Ce serveur a pour but d'informer la communauté du développement du jeu, des mises à jour mais aussi d'y organiser la partie commerce et sociale![](http://puu.sh/njNH0/554737e401.png)
 
 
 
