@@ -1,9 +1,6 @@
-Cahier des charges
-===================
-
+# Cahier des charges
 
 ----------
-
 
 Introduction
 -------------
@@ -16,6 +13,7 @@ Le choix du sujet étant libre, il n'y a aucune contrainte technique imposée. C
 
 Ce projet a pour but de créer un jeu massivement multijoueur destinés aux utilisateurs de Discord, une plateforme de communication. Il s'agit de mettre en place une architecture permettant à des centaines voir milliers d'utilisateurs de jouer en même temps via l'interface de discord, de rendre possible aux utilisateurs qui le désire d'héberger leur propre client afin de permettre la customisation et de réduire nos coûts d'hébergement et enfin, d'exposer une API permettant d'obtenir des données sur le jeu.
 
+----------
 
 Technologies utilisées
 -----------------------

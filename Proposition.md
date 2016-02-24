@@ -1,10 +1,7 @@
 
-Proposition de PJS6 : Discord MMO
-=============================
-
+# Proposition de PJS6 : Discord MMO
 
 ----------
-
 
 Participants
 ----------------
