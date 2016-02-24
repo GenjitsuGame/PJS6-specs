@@ -49,40 +49,38 @@ Les spécifications barrées ont déjà été réalisées avant le début offici
 
 L'utilisateur pourra :
 
-#### Interaction avec le client
+- Interaction avec le client
+    - effectuer des actions via des commandes tapées dans le chat de discord.
+    - annuler à tout moment une action en cours.
+    - s'enregistrer sur les serveurs de jeu.
 
-- effectuer des actions via des commandes tapées dans le chat de discord.
-- annuler à tout moment une action en cours.
-- s'enregistrer sur les serveurs de jeu.
+- Gestion des personnages
+    - créer/supprimer un ou plusieurs personnages.
+    - choisir le nom du personnage.
+    - __(renommer son personnage après l'avoir crée.)__
+    - choisir la race de son personnage.
+    - choisir la classe de son personnage.
+    - selectionner un de ses personnages pour jouer.
 
-#### Gestion des personnages
-- créer/supprimer un ou plusieurs personnages.
-- choisir le nom du personnage.
-- __(renommer son personnage après l'avoir crée.)__
-- choisir la race de son personnage.
-- choisir la classe de son personnage.
-- selectionner un de ses personnages pour jouer.
+- Combat
+    - se battre contre l'intelligence artificielle.
+    - se battre contre d'autres joueurs.
+    - __(se battre en équipe avec l'intelligence artificielle__
+    - se battre en équipe avec d'autres joueurs.
+    - choisir l'action qu'il désire effectuer via un menu contextuel au début de son tour.
+    - gagner des objets à équiper ou permettant de fabriquer/améliorer de l'équipement.
 
-#### Combat
-- se battre contre l'intelligence artificielle.
-- se battre contre d'autres joueurs.
-- __(se battre en équipe avec l'intelligence artificielle__
-- se battre en équipe avec d'autres joueurs.
-- choisir l'action qu'il désire effectuer via un menu contextuel au début de son tour.
-- gagner des objets à équiper ou permettant de fabriquer/améliorer de l'équipement.
+- Social
+    - ajouter/supprimer des amis de sa liste d'amis.
+    - créer/rejoindre/quitter une guilde.
 
-#### Social
-- ajouter/supprimer des amis de sa liste d'amis.
-- créer/rejoindre/quitter une guilde.
+- Commerce 
+    - acheter/échanger/vendre des objets du jeu.
+    - utiliser des salons discord dédié au commerce du jeu.
 
-#### Commerce
-- acheter/échanger/vendre des objets du jeu.
-- utiliser des salons discord dédié au commerce du jeu.
-
-#### Métiers
-
-- apprendre un __(ou 2)__ métiers permettant d'aider sa progression dans le jeu.
-- fabriquer des objets qui pourront ensuite être utilisés ou revendus.
+- Métiers
+    - apprendre un __(ou 2)__ métiers permettant d'aider sa progression dans le jeu.
+    - fabriquer des objets qui pourront ensuite être utilisés ou revendus.
 
 ### Le client
 
