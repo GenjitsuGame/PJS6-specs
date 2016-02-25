@@ -39,6 +39,15 @@ Il est possible d'heberger des applications gratuitement avec des contraintes qu
 Enfin, il est possible de synchroniser heroku et un dépôt github, permettant de redéployer l'application à chaque fois que du code est poussé sur le dépôt.
 
 
+### [MongoDB](https://www.mongodb.org/)
+
+MongoDB est une base de données "NoSQL". Il n'y a donc pas besoin de définir le schéma des tables et cette fléxibilité permet d'accélérer le développement lorsque l'on suit comme moi un modèle itératif.
+De plus, MongoDB utilise un système d'index le rendant très performant lorsqu'il s'agit de faire des requêtes sur un grand nombre de lignes.
+
+### [Foundation 6](http://foundation.zurb.com/)
+ 
+Foundation est une famille de framework front-end qui facilitent la création et le design de site internet "responsive".
+
 Spécifications
 --------------
 
@@ -65,7 +74,7 @@ L'utilisateur pourra :
 - Combat
     - se battre contre l'intelligence artificielle.
     - se battre contre d'autres joueurs.
-    - _(se battre en équipe avec l'intelligence artificielle_
+    - _(se battre en équipe avec l'intelligence artificielle.)_
     - se battre en équipe avec d'autres joueurs.
     - choisir l'action qu'il désire effectuer via un menu contextuel au début de son tour.
     - gagner des objets à équiper ou permettant de fabriquer/améliorer de l'équipement.
@@ -98,7 +107,7 @@ Il devra :
 
 L'utilisateur du client pourra :
 
-- _(obtenir une clé d'API et un secret nécessaire pour effectuer des requêtes sur le serveur)_
+- _(obtenir une clé d'API et un secret nécessaire pour effectuer des requêtes sur le serveur.)_
  
 ### Le serveur de jeu
 
@@ -119,7 +128,53 @@ Le serveur devra donc :
 ### Le "Master Bot"
 
 Le master bot est une application utilisant, tout comme la partie cliente, la bibliothèque [Discord.io](https://github.com/izy521/discord.io) dans le but d'aider à la gestion du serveur Discord du jeu et de sa communauté.
-Ce serveur a pour but d'informer la communauté du développement du jeu, des mises à jour mais aussi d'y organiser la partie commerce et sociale![](http://puu.sh/njNH0/554737e401.png)
+Ce serveur a pour but d'informer la communauté du développement du jeu, des mises à jour mais aussi d'y organiser la partie commerce et sociale du jeu. ![](http://puu.sh/njNH0/554737e401.png)
+
+Il devra :
+
+- tenir informé les contributeurs de l'activité des dépots github des applications en open source.
+- permettre de communiquer aux utilisateurs les annonces concernant le jeu.
+- organiser les salons de commerce
+- organiser les salons de recrutement et de recherche de groupe.
+
+### Le site internet
+
+Un site internet permettra d'obtenir les tokens nécessaires à l'utilisation de l'API.
+
+Si le temps le permet, ce site proposera également d'autres fonctionnalités.
+
+Le site devra :
+
+- proposer un système d'authentification.
+- permettre à l'utilisateur d'enregistrer une application pour laquelle il obtiendra une clé d'API et un secret.
+- permettre à l'utilisateur de consulter la liste de ses applications enregistrée.
+- permettre à l'utilisateur de renouveler ses tokens en fonctions des scopes désirés.
+- _(proposer un forum.)_
+- _(permettre de consulter la base de donnée du jeu.)_
+- _(contenir un blog de développeur ou je partagerai les connaissances que j'ai apprise.)_
 
 
+#### Remarque
 
+Il est possible que des changement d'architectures soient efféctués si je change d'avis sur la façon de réaliser les spécifications décrites plus ci-dessus.
+
+Aussi, dans la mesure du possible, un maximum de tests devront être réaliser afin de pouvoir certifié la qualité du produit et de facilité la contribution de la part d'autres utilisateurs.
+
+-------------
+
+Développement
+-------------
+
+La méthode de gestion de projet choisie sera inspirée des méthodes agiles.
+
+Après avoir défini un ensemble de features à délivrer et les sous tâches les composants, celles-ci seront réparties sur plusieurs sprints de 1 semaines chacun qui me permettront d'évaluer ma vélocité et le travail qu'il me reste à faire.
+
+Dans le cadre de ce projet, j'utiliserai les produits de la compagnie [JetBrains](https://www.jetbrains.com/).
+
+- L'IDE [Webstorm](https://www.jetbrains.com/webstorm/) pour sa maturité et ses plugins permettant d'intégrer les autre outils que j'utilise.
+- [YouTrack](https://www.jetbrains.com/youtrack/) pour les outils agiles, gestion du backlog, sprints...
+- _([TeamCity](https://www.jetbrains.com/teamcity/) pour l'intégration (vérifier que les tests passent avant que le code soit poussé sur le dépôt, pouvoir faire des builds à partir des dépots et ainsi des releases...))_
+- (GitHub)[https://github.com/] pour le versionning des parties open sources du projet.
+
+
+__Un lien sera rajouté ici vers le youtrack du projet__
