@@ -48,6 +48,8 @@ De plus, MongoDB utilise un système d'index le rendant très performant lorsqu'
  
 Foundation est une famille de framework front-end qui facilitent la création et le design de site internet "responsive".
 
+-------------
+
 Spécifications
 --------------
 
@@ -103,7 +105,7 @@ Il devra :
 - pouvoir afficher la liste des commandes et ce qu'elles font.
 - gérer la limite imposée par Discord de _X_ messages par _X_ secondes.
 - êffectuer des requêtes sur le serveur de jeu.
-- permettre au joueur d'effectuer l'ensemble des fonctionnalités décrites dans les spécification du [jeu](#le jeu).
+- permettre au joueur d'effectuer l'ensemble des fonctionnalités décrites dans les spécification du [jeu](#le-jeu).
 
 L'utilisateur du client pourra :
 
@@ -123,7 +125,7 @@ Le serveur devra donc :
 - pouvoir distribuer des clés d'API associés à un ou plusieurs scopes.
 - être en mesure d'identifier les clients effectuant des appels d'API
 - retourner des données au format JSON.
-- implémenter la logique du jeu décrite dans les spécifications [mentionnées plus haut](#le jeu).
+- implémenter la logique du jeu décrite dans les spécifications [mentionnées plus haut](#le-jeu).
 
 ### Le "Master Bot"
 
@@ -174,7 +176,7 @@ Dans le cadre de ce projet, j'utiliserai les produits de la compagnie [JetBrains
 - L'IDE [Webstorm](https://www.jetbrains.com/webstorm/) pour sa maturité et ses plugins permettant d'intégrer les autre outils que j'utilise.
 - [YouTrack](https://www.jetbrains.com/youtrack/) pour les outils agiles, gestion du backlog, sprints...
 - _([TeamCity](https://www.jetbrains.com/teamcity/) pour l'intégration (vérifier que les tests passent avant que le code soit poussé sur le dépôt, pouvoir faire des builds à partir des dépots et ainsi des releases...))_
-- (GitHub)[https://github.com/] pour le versionning des parties open sources du projet.
+- [GitHub](https://github.com/) pour le versionning des parties open sources du projet.
 
 
-__Un lien sera rajouté ici vers le youtrack du projet__
+[Backlog du projet (cliquer sur _"Agile Boards"_ pour accéder au sprint actuel)](bohttps://genjitsugame.myjetbrains.com/youtrack/issues/DISCORDMMO)

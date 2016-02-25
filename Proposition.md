@@ -4,7 +4,7 @@
 Participants
 ----------------
 - Auteur : Pascal LUTTGENS,_<<pascal.luttgens@hotmail.fr>>_
-- Tuteur : Mourad OUZIRI
+- Tuteur : Mourad OUZIRI,_<<mourad.ouziri@parisdescartes.fr>>_
 
 
 ----------
@@ -34,7 +34,7 @@ La partie cliente sera [open source](https://github.com/GenjitsuGame/bot-mmo-cli
 
 - Utiliser des thniques permettant d'avoir une base de donnée dite évolutive (ou "scalable").
 
-###Les difficult potentielles
+### Les difficultés potentielles
 
 - Arriver à construire et maintenir une architecture qui permette de contribuer facilement au projet (Patterns de développement, documentation, tests...)
 
